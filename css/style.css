@@ -26,9 +26,13 @@
 html {
     font-size: 62.5%;
     font-family: var(--font-primary);
-    color: var(--color-primary);
+    color: var(--color-secondary);
     height: 100vh;
 
+}
+
+body {
+    background-color: var(--color-primary);
 }
 
 ul {
@@ -54,7 +58,7 @@ a {
 
 nav {
     background-color: var(--color-primary);
-    height: 15vh;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +91,7 @@ nav > ul {
         position: fixed;
         background: rgba(0,0,0, 0.95);
         width: 100%;
-        top: 60px;
+        top: 100px;
         transition: all .5s;
         display: flex;
         flex-direction: column;
@@ -142,6 +146,25 @@ nav > ul {
         justify-content: center;
         font-size: 1.4em;        text-align: center;
         margin-top: 10px;
+    }
+
+    small {
+        display: flex;
+        font-size: var(--font-sm);
+        text-align: center;
+        justify-content: center;
+    }
+
+    .texto__padrinos {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: var(--font-sm);
+    }
+
+    .negritas {
+        font-weight: bolder;
+        color: var(--color-dorado);
     }
     
 
