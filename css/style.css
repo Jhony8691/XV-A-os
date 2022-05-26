@@ -159,7 +159,7 @@ nav > ul {
         display: flex;
         justify-content: center;
         margin-top: 10px;
-        font-size: 1.7em;
+        font-size: var(--text-md);
     }
 
     .negritas {
