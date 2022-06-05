@@ -263,6 +263,10 @@ nav > ul {
         display: none;
     }
 
+    .agradecimientos {
+        font-size: var(--text-lg)
+    }
+
 }
 
 
